@@ -4,16 +4,77 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Kellie Schuh's Portfolio</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
     <style>
+    body {
+      background-color: #ebe7d9;
+    }
     .jumbotron {
+      background-color: #bdc48f;
       margin-top: 30px;
     }
     .jumbotron .jumbotron_text {
+      font-family: 'Allura', cursive;
       text-align: center;
+    }
+    .jumbotron_text h1 {
+      font-size: 80px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    .jumbotron_text a:hover {
+      text-decoration: none;
+    }
+    a,
+    a:hover,
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:hover,
+    .nav-tabs>li.active>a:focus,
+    .nav .open > a,
+    .nav .open > a:hover,
+    .nav .open > a:focus {
+      color: #a1404f;
+    }
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:hover,
+    .nav-tabs>li.active>a:focus,
+    .nav>li>a {
+      border-color: #967363;
+      border-bottom: 1px solid transparent;
+    }
+    .nav .open > a,
+    .nav .open > a:hover,
+    .nav .open > a:focus,
+    .nav>li>a:hover,
+    .nav>li>a:focus {
+      background-color: #fff;
+      border-color: #967363;
+      border-bottom: 1px solid #967363;
+    }
+    .tab-content {
+      background-color: #fff;
+      padding: 20px;
+      border-left: 1px solid #967363;
+      border-right: 1px solid #967363;
+      border-bottom: 1px solid #967363;
+    }
+    .nav-tabs {
+      border-color: #967363;
+    }
+    .dropdown-menu>.active>a,
+    .dropdown-menu>.active>a:hover,
+    .dropdown-menu>.active>a:focus {
+      color: #a1404f;
+      background-color: #bdc48f;
+    }
+    .dropdown-menu>li>a:hover,
+    .dropdown-menu>li>a:focus {
+      background-color: #cf6967;
+      color: #fff;
     }
     </style>
 
@@ -92,7 +153,22 @@
             </ul>
 
             <div class="tab-content">
-              <div class="tab-pane active" id="aboutme">Kellie Schuh is awesome</div>
+              <div class="tab-pane active" id="aboutme">
+                <p>
+                  Kellie Schuh is awesome. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel cursus urna. Morbi rhoncus diam quis magna mollis, eget fermentum tellus luctus. Proin a eros vulputate, suscipit orci a, sodales ipsum. Nulla dignissim elit sit amet metus eleifend pellentesque. Vestibulum bibendum leo in venenatis feugiat. Morbi mattis est porttitor nulla interdum eleifend. Nullam tincidunt ante sed massa bibendum faucibus.
+                </p>
+                <p>
+                  Sed mauris ipsum, aliquet eu erat sit amet, venenatis tempus est. Nam vitae ornare magna. Etiam quis diam dignissim, auctor justo sed, facilisis enim. Sed vitae cursus tellus. Nunc sollicitudin massa a felis accumsan suscipit. Proin vitae pulvinar sapien. Nullam mollis auctor nulla, ut ultricies neque hendrerit ut. Etiam vel est vulputate, ullamcorper felis id, dignissim tellus. Cras pellentesque odio a mi suscipit porttitor. Sed semper tristique ante, non facilisis mauris tincidunt ac. Donec viverra massa augue, a euismod mauris accumsan vel. Sed lectus sapien, convallis eu rutrum sit amet, accumsan non ligula. Proin euismod orci nec facilisis commodo. Vestibulum a interdum augue, eget scelerisque ipsum.
+                </p>
+                <p>
+                  Nunc vitae mauris a metus vestibulum tincidunt. Nulla at enim consequat odio faucibus dignissim sit amet ut lacus. Curabitur sit amet nunc id ante mollis interdum. Suspendisse ac porta quam. Vestibulum gravida a ipsum sed lobortis. Suspendisse dignissim leo dolor, non gravida justo feugiat nec. Fusce mollis ligula eget sem porta, sed malesuada diam laoreet.
+                </p>
+                <p>
+                  Ut imperdiet tortor erat. In fringilla mi neque. Donec adipiscing cursus elit eu aliquam. Aliquam condimentum magna venenatis, adipiscing sapien vel, accumsan tortor. Morbi tortor dolor, consectetur vitae consectetur ut, tincidunt a nibh. Praesent a scelerisque augue. Quisque bibendum justo lectus, sit amet condimentum lacus tincidunt at. Nunc vitae est mauris. Ut diam orci, consectetur a vulputate eget, gravida ac elit. Mauris aliquam lacus aliquam, ullamcorper nisl sed, cursus nunc. Etiam faucibus posuere tellus, non iaculis dolor molestie eu. Curabitur et dictum dolor. Donec condimentum turpis est, ut rhoncus felis viverra non. Quisque sagittis gravida urna id ultrices. Quisque nec justo eu velit pretium tincidunt. Aliquam erat volutpat.
+                </p>
+                <p>
+                  Nullam venenatis suscipit tempus. Fusce elementum enim at justo molestie hendrerit nec at lorem. Aliquam adipiscing dolor sed enim euismod, vitae egestas sem tincidunt. Maecenas non urna augue. Aliquam consequat eros justo, suscipit gravida dolor tincidunt ultrices. Curabitur feugiat placerat quam non rhoncus. Suspendisse sed neque vestibulum lectus bibendum iaculis. Sed laoreet neque risus, eget semper mi gravida id. Cras imperdiet convallis urna. Nunc pharetra sagittis nibh at lobortis. Vestibulum eget dui rhoncus, volutpat turpis id, pretium orci.</div>
+                </p>
               <div class="tab-pane" id="resume">Resume goes here!</div>
               <div class="tab-pane" id="philosophy">What I think teaching is and should be.</div>
               <div class="tab-pane" id="diversity">NEIU stresses # proficencies in the field of diversity.</div>
